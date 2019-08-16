@@ -199,7 +199,4 @@ PROXY_GETTER = [
   | Proxy List |  可用  |几分钟一次|   *     |  是      | [地址](https://proxy-list.org/chinese/index.php)|
   | ProxyList+ |  可用  |几分钟一次|   *     |  是      | [地址](https://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1)|
   
-  如果还有其他好的免费代理网站, 可以在提交在[issues](https://github.com/jhao104/proxy_pool/issues/71), 下次更新时会考虑在项目中支持。
-
-
 
