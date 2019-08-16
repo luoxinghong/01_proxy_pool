@@ -11,9 +11,20 @@
                            __ / /
                           /___ /
 
-##### [介绍文档](https://github.com/jhao104/proxy_pool/blob/master/doc/introduce.md)
+##### 介绍
+①结构：Falsk + click + platform + 
 
-* 支持版本: ![](https://img.shields.io/badge/Python-2.x-green.svg) ![](https://img.shields.io/badge/Python-3.x-blue.svg)
+②cli是构建命令行应用的第三方比较有名
+
+③目前项目支持redis和mysql存储，两种存储方式需修改setting.py中的DB_TYPE(SSDB/redis)
+
+④启动方式，运行main.py文件
+
+或者通过cli构建的命令执行
+python proxyPool.py schedule   >>>   首先启动调度程序
+python proxyPool.py webserver   >>>   然后启动webApi服务
+
+
 
 
 ### 下载安装
@@ -188,24 +199,7 @@ PROXY_GETTER = [
   
   如果还有其他好的免费代理网站, 可以在提交在[issues](https://github.com/jhao104/proxy_pool/issues/71), 下次更新时会考虑在项目中支持。
 
-### 问题反馈
+### Notes
+  ① 
 
-　　任何问题欢迎在[Issues](https://github.com/jhao104/proxy_pool/issues) 中反馈，如果没有账号可以去 我的[博客](http://www.spiderpy.cn/blog/message)中留言。
-
-　　你的反馈会让此项目变得更加完美。
-
-### 贡献代码
-
-　　本项目仅作为基本的通用的代理池架构，不接收特有功能(当然,不限于特别好的idea)。
-
-　　本项目依然不够完善，如果发现bug或有新的功能添加，请在[Issues](https://github.com/jhao104/proxy_pool/issues)中提交bug(或新功能)描述，在确认后提交你的代码。
-
-　　这里感谢以下contributor的无私奉献：
-
-　　[@kangnwh](https://github.com/kangnwh)| [@bobobo80](https://github.com/bobobo80)| [@halleywj](https://github.com/halleywj)| [@newlyedward](https://github.com/newlyedward)| [@wang-ye](https://github.com/wang-ye)| [@gladmo](https://github.com/gladmo)| [@bernieyangmh](https://github.com/bernieyangmh)| [@PythonYXY](https://github.com/PythonYXY)| [@zuijiawoniu](https://github.com/zuijiawoniu)| [@netAir](https://github.com/netAir)| [@scil](https://github.com/scil)| [@tangrela](https://github.com/tangrela)| [@highroom](https://github.com/highroom)| [@luocaodan](https://github.com/luocaodan)| [@vc5](https://github.com/vc5)| [@1again](https://github.com/1again)| [@obaiyan](https://github.com/obaiyan)
-
-
-### Release Notes
-
-   [release notes](https://github.com/jhao104/proxy_pool/blob/master/doc/release_notes.md)
 
