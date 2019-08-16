@@ -16,7 +16,7 @@
 
 ②cli是构建命令行应用的第三方比较有名
 
-③目前项目支持redis和mysql存储，两种存储方式需修改setting.py中的DB_TYPE(SSDB/redis)
+③目前项目支持redis和mysql存储，两种存储方式需修改setting.py中的DB_TYPE(SSDB/)
 
 ④启动方式，运行main.py文件
 
