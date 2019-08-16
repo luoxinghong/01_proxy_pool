@@ -1,21 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   File Name：     CheckProxy
-   Description :   used for check getFreeProxy.py
-   Author :        JHao
-   date：          2018/7/10
--------------------------------------------------
-   Change Activity:
-                   2018/7/10: CheckProxy
--------------------------------------------------
-"""
-__author__ = 'JHao'
-
 from getFreeProxy import GetFreeProxy
 from Util.utilFunction import verifyProxyFormat
-
-
 from Util.LogHandler import LogHandler
 
 log = LogHandler('check_proxy', file=False)

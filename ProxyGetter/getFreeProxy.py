@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/env python
-"""
--------------------------------------------------
-   File Name：     GetFreeProxy.py
-   Description :  抓取免费代理
-   Author :       JHao
-   date：          2016/11/25
--------------------------------------------------
-   Change Activity:
-                   2016/11/25:
--------------------------------------------------
-"""
 import re
 import sys
 import requests

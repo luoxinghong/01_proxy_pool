@@ -1,17 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   File Name：     RedisClient
-   Description :  封装Redis相关操作
-   Author :        JHao
-   date：          2019/8/9
--------------------------------------------------
-   Change Activity:
-                   2019/8/9: 封装Redis相关操作
--------------------------------------------------
-"""
-__author__ = 'JHao'
-
 from Config.setting import PY3
 
 from redis.connection import BlockingConnectionPool

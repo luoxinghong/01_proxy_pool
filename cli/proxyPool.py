@@ -7,7 +7,7 @@ sys.path.append('../')
 
 from Config.setting import HEADER
 from Schedule.ProxyScheduler import runScheduler
-from Api.ProxyApi import runFlask,runFlaskWithGunicorn
+from Api.ProxyApi import runFlask, runFlaskWithGunicorn
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
