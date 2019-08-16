@@ -201,7 +201,5 @@ PROXY_GETTER = [
   
   如果还有其他好的免费代理网站, 可以在提交在[issues](https://github.com/jhao104/proxy_pool/issues/71), 下次更新时会考虑在项目中支持。
 
-### Notes
-  ① 
 
 
